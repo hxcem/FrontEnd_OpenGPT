@@ -1,0 +1,83 @@
+.user-message-dark {
+    background-color: #1E1E1E; /* 用户消息背景色 */
+    color: #fff !important;
+    text-align: left;
+}
+
+.bot-message-dark {
+    background-color: #2D2D2D; /* 机器人消息背景色 */
+    color: #fff !important;
+    text-align: left;
+}
+
+.bot-message-light {
+    background-color: #FFFFFF; /* White background for bot messages */
+    color: #333 !important; /* Dark text color for readability */
+    text-align: left;
+}
+
+.user-message-light {
+    background-color: #F0F0F0; /* Light background for user messages */
+    color: #333 !important; /* Dark text color for readability */
+    text-align: left;
+}
+
+.dark-theme {
+    color: #fff !important;
+    background-color: #2c2c2c !important;
+}
+
+.light-theme {
+    color: #333 !important;
+    background-color: #f3f3f3;
+}
+
+.dark-theme::placeholder {
+    color: #fff !important; /* 您想要的占位符颜色 */
+}
+
+.light-theme::placeholder {
+    color: #1E1E1E !important;
+}
+
+.mobile-textarea{
+    flex: 1;
+    /*background-color: #2D2D2D !important;*/
+    /*color: #fff;*/
+    padding: 10px 50px 10px 10px;
+}
+
+.desktop-textarea{
+    flex: 1;
+    /*background-color: #2D2D2D !important;*/
+    /*color: #fff;*/
+    padding: 10px 10px 10px 10px;
+}
+
+.mobile-input{
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+}
+
+.desktop-input{
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.changeThemeButton {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+@media (max-width: 768px) {
+    .sider-hidden {
+        display: none; /* Hide the sidebar on small screens */
+    }
+}
